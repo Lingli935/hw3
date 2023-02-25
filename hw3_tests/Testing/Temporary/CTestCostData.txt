@@ -1,0 +1,60 @@
+Pivot.Empty 1 1.56018
+Pivot.Size1SmallEmpty 1 1.45955
+Pivot.Size1LargeEmpty 1 1.40845
+Pivot.Size2SmallLarge 1 1.40855
+Pivot.Size2LargeSmall 1 1.5193
+Pivot.Size3LargeSmallLarge 0 0
+Pivot.Size3SmallLargeSmall 0 0
+Pivot.Size3LargeLargeSmall 0 0
+Pivot.Size6SmallThenLarge 0 0
+Pivot.Size6LargeThenSmall 0 0
+Pivot.Nominal 0 0
+Pivot.SameValues 0 0
+Pivot.NoCopySameNodeCheck 0 0
+Filter.EmptyList 1 1.39408
+Filter.Size1_F 1 1.43341
+Filter.Size1_nF 1 1.40872
+Filter.Size2_F_nF 1 1.39716
+Filter.Size2_nF_F 1 1.39906
+Filter.Size3_nF_F_nF 1 1.40329
+Filter.Size3_F_nF_F 1 1.40207
+Filter.SameNodeCheck 1 1.42589
+Filter.MultipleCalls 1 1.40968
+Filter.CompareWithLlrec 0 0
+Stack.BasicString 1 1.47076
+Stack.RandomInt 1 2.97986
+HeapTest.ConstructionDestruction 1 1.43628
+HeapTest.InitiallyEmpty 1 1.41136
+HeapTest.EmptyTopException 1 1.43915
+HeapTest.EmptyPopException 1 1.44584
+HeapTest.SingleItemNonempty 1 1.4081
+HeapTest.SingleItemPush 1 1.55364
+HeapTest.SingleItemPushPop 1 1.40919
+HeapTest.TwoElementPush_LowPriFirst 1 1.41495
+HeapTest.TwoElementPush_HighPriFirst 1 1.41239
+HeapTest.Duplicates 1 1.41711
+HeapTest.NegativeElements 1 1.41397
+HeapTest.ThreeElementPush_0_5_10 1 1.45099
+HeapTest.ThreeElementPush_0_10_5 1 1.42223
+HeapTest.ThreeElementPush_5_0_10 1 1.42271
+HeapTest.ThreeElementPush_5_10_0 1 1.43157
+HeapTest.ThreeElementPush_10_0_5 1 1.45968
+HeapTest.ThreeElementPush_10_5_0 1 1.47033
+HeapTest.GreaterComparator 1 1.41546
+HeapTest.StringStorage 1 1.42503
+HeapTest.FiveElementPush_TrinaryHeap 1 1.42952
+HeapTest.SixElementPush_QuaternaryHeap 1 1.43233
+HeapStress.50x50RandomElements_BinaryHeap 1 1.68041
+HeapStress.50x50RandomElements_QuaternaryHeap 1 1.60107
+HeapStress.50x50RandomElements_DodecenaryHeap 1 1.59673
+HeapStress.2x2000RandomElements_Binary 1 1.64903
+---
+Pivot.Size3LargeSmallLarge
+Pivot.Size3SmallLargeSmall
+Pivot.Size3LargeLargeSmall
+Pivot.Size6SmallThenLarge
+Pivot.Size6LargeThenSmall
+Pivot.Nominal
+Pivot.SameValues
+Pivot.NoCopySameNodeCheck
+Filter.CompareWithLlrec

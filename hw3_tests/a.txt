@@ -1,0 +1,148 @@
+[ 40%] Buil t target kwsys
+[ 59%] Built target testing_utils
+[ 68%] Built target hw3_llrec
+[ 81%] Built target llrec_tests
+[ 90%] Built target stack_tests
+Scanningdependencies of target heap_tests
+[ 95%] Building CXX object heap_tests/CMakeFiles/heap_tests.dir/heap_tests.cpp.o
+In file included from /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:5:0:
+/home/codio/workspace/hw3/heap.h: In instantiation of ‘void Heap<T, PComparator>::pop() [with T = int; PComparator = std::less<int>]’:
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:71:12:   required from here
+/home/codio/workspace/hw3/heap.h:145:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   while(index < size()) {
+         ~~~~~~^~~~~~~~
+/home/codio/workspace/hw3/heap.h:148:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (left_index >= size()) {
+         ~~~~~~~~~~~^~~~~~~~~
+/home/codio/workspace/hw3/heap.h:152:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (right_index >= size()) {
+         ~~~~~~~~~~~~^~~~~~~~~
+/home/codio/workspace/hw3/heap.h: In instantiation of ‘void Heap<T, PComparator>::pop() [with T = int; PComparator = std::greater<int>]’:
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:263:11:   required from here
+/home/codio/workspace/hw3/heap.h:145:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   while(index < size()) {
+         ~~~~~~^~~~~~~~
+/home/codio/workspace/hw3/heap.h:148:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (left_index >= size()) {
+         ~~~~~~~~~~~^~~~~~~~~
+/home/codio/workspace/hw3/heap.h:152:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (right_index >= size()) {
+         ~~~~~~~~~~~~^~~~~~~~~
+/home/codio/workspace/hw3/heap.h: In instantiation of ‘void Heap<T, PComparator>::pop() [with T = std::__cxx11::basic_string<char>; PComparator = std::less<std::__cxx11::basic_string<char> >]’:
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:277:17:   required from here
+/home/codio/workspace/hw3/heap.h:145:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   while(index < size()) {
+         ~~~~~~^~~~~~~~
+/home/codio/workspace/hw3/heap.h:148:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (left_index >= size()) {
+         ~~~~~~~~~~~^~~~~~~~~
+/home/codio/workspace/hw3/heap.h:152:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (right_index >= size()) {
+         ~~~~~~~~~~~~^~~~~~~~~
+[100%] Linking CXX executable heap_tests
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_ConstructionDestruction_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:84: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:84: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_InitiallyEmpty_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:89: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:89: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:89: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_EmptyTopException_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:95: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:95: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:95: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_EmptyPopException_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:101: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:101: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:101: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_SingleItemNonempty_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:107: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:107: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:107: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_SingleItemPush_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:114: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:114: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:114: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_SingleItemPushPop_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:121: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:121: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:121: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_TwoElementPush_LowPriFirst_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:129: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:129: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:129: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_TwoElementPush_HighPriFirst_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:141: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:141: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:141: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_Duplicates_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:153: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:153: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:153: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_NegativeElements_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:168: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:168: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:168: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_ThreeElementPush_0_5_10_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:176: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:176: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:176: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_ThreeElementPush_0_10_5_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:189: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:189: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:189: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_ThreeElementPush_5_0_10_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:202: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:202: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:202: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_ThreeElementPush_5_10_0_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:215: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:215: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:215: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_ThreeElementPush_10_0_5_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:228: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:228: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:228: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_ThreeElementPush_10_5_0_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:241: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:241: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:241: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_GreaterComparator_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:256: undefined reference to `Heap<int, std::greater<int> >::Heap(int, std::greater<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:256: undefined reference to `Heap<int, std::greater<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:256: undefined reference to `Heap<int, std::greater<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_StringStorage_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:271: undefined reference to `Heap<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::Heap(int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:271: undefined reference to `Heap<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:271: undefined reference to `Heap<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_FiveElementPush_TrinaryHeap_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:285: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:285: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:285: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapTest_SixElementPush_QuaternaryHeap_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:305: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:305: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:305: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapStress_50x50RandomElements_BinaryHeap_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:338: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:338: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:338: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapStress_50x50RandomElements_QuaternaryHeap_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:361: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:361: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:361: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapStress_50x50RandomElements_DodecenaryHeap_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:384: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:384: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:384: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+CMakeFiles/heap_tests.dir/heap_tests.cpp.o: In function `HeapStress_2x2000RandomElements_Binary_Test::TestBody()':
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:407: undefined reference to `Heap<int, std::less<int> >::Heap(int, std::less<int>)'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:407: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:407: undefined reference to `Heap<int, std::less<int> >::~Heap()'
+collect2: error: ld returned 1 exit status
+heap_tests/CMakeFiles/heap_tests.dir/build.make:98: recipe for target 'heap_tests/heap_tests' failed
+make[2]: *** [heap_tests/heap_tests] Error 1
+CMakeFiles/Makefile2:1584: recipe for target 'heap_tests/CMakeFiles/heap_tests.dir/all' failed
+make[1]: *** [heap_tests/CMakeFiles/heap_tests.dir/all] Error 2
+Makefile:94: recipe for target 'all' failed
+make: *** [all] Error 2
