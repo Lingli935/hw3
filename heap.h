@@ -4,7 +4,7 @@
 //#include <functional>
 #include <stdexcept>
 
-
+//paing a compareter  the name is eventLess
 template <typename T, typename PComparator = std::less<T> >
 class Heap
 {
