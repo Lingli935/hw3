@@ -8,16 +8,16 @@ void llpivot_recursive(Node *&head, Node *&smaller, Node *&larger, int pivot) {
   if (head == nullptr) {
     return;
   }
-  Node* tmp = head->next;
-  llpivot_recursive(tmp, smaller, larger, pivot);
-  if (head->val < pivot) {
+  Node* temp = head->next;
+  llpivot_recursive(temp, smaller, larger, pivot);
+  if (head->val <= pivot) {
     head->next = smaller;
     smaller = head;
   } else {
     head->next = larger;
     larger = head;
   }
-  head = next;
+  head = nullptr;
 }
 
 void llpivot(Node *&head, Node *&smaller, Node *&larger, int pivot) {
