@@ -1,2 +1,7 @@
 *.o
 llrec-test
+logicsim/logicsim
+*.png 
+*.uml
+
+
